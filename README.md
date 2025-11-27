@@ -1,13 +1,14 @@
 # EXPT. NO. 1 SIMULATION OF STAR TOPOLOGY NETWORK
 
-## AIM:
-To simulate a network with Topology, using Cisco Packet Tracer and to verify the connectivity between computer using ICMP.
+# AIM 
+ To simulate a network with Topology, using Cisco Packet Tracer and to verify the connectivity between computer using ICMP.
+# EQUIPMENTS REQUIRED
 
-## EQUIPMENTS REQUIRED:
 Desktop computer
 Cisco Packet Tracer 5.0 Software.
 
-## PROCEDURE:
+
+# PROCEDURE
 ```
 STEP 1: Open a Packet Tracer Software.
 STEP 2: Drag a 2950 Switch from tool bar and drop it in work area. STEP 3: Drag a PC Terminal from tool bar and drop it in work area. STEP 4: Repeat the Step:3 for four terminals.
@@ -15,10 +16,12 @@ STEP 5: Select Copper straight-through cable from tool bar and connect each PC T
 STEP 6: Click on the PC Terminal, Select the fast Ethernet Interface from configuration table and set IP address and Subnet mask.
 STEP 7: Repeat the Step:6 for all the PC Terminals.
 STEP 8: click on the PC Terminal and Select Terminal from the Desktop tab to verify the connectivity between the PC Terminals using Ping Command.
-STEP 9: Select “add simple PDU” from tool bar and place it in source and destination PC Terminals to verify the connectivity.
+STEP 9: Select “add simple PDU” from tool bar and place it in source and destination PC Terminals to verify the connectivity
 ```
 
-## IP CONNECTIVITY TABLE:
+
+# IP CONNECTIVITY TABLE
+
 | NAME | IP ADDRESS     | SUBNET MASK     | NETWORK      | CLASS   |
 |------|----------------|-----------------|--------------|---------|
 | PCO  | 192.168.1.10   | 255.255.255.0   | 192.168.1.1  | Class C |
@@ -28,11 +31,14 @@ STEP 9: Select “add simple PDU” from tool bar and place it in source and des
 | PC4  | 192.168.2.30   | 255.255.255.0   | 192.168.1.2  | Class C |
 | PC5  | 192.168.2.10   | 255.255.255.0   | 192.168.1.2  | Class C |
 
-## NETWORK DIAGRAM:
-<img width="1280" height="717" alt="image" src="https://github.com/user-attachments/assets/884357ee-26cd-4793-80f2-f20e0d372434" />
+# NETWORK DIAGRAM
 
-## OUTPUT:
-<img width="661" height="546" alt="image" src="https://github.com/user-attachments/assets/f2e8ef9a-9f6d-467c-941c-70768fb09f2d" />
+<img width="807" height="799" alt="Screenshot 2025-11-21 211208" src="https://github.com/user-attachments/assets/e5bfcfe0-f988-4b51-9e26-e46871a8b5cf" />
 
-## RESULT:
+# OUTPUT
+
+<img width="809" height="828" alt="Screenshot 2025-11-21 210923" src="https://github.com/user-attachments/assets/59ae378c-ddc3-4825-844e-310793cb0535" />
+
+# RESULT
+
 Thus the computers in same network are able to communicate with each other and the communication between them were verified.
